@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#harryporter_cast img {
+    width: 33%;
+    object-fit: cover;
+}
+
+
+/* 
+.harryporter {
+    display: flex;
+    justify-content: space-between;
+    background-color: #070111;
+} */
+
+.carousel-item {
+    border: 1px solid black;
+}
+
+.cast-text {
+    border: 1px solid black;
+    z-index: -1;
+}
