@@ -4,24 +4,126 @@
     box-sizing: border-box;
 }
 
-#harryporter_cast img {
-    width: 33%;
-    object-fit: cover;
+.navigation {
+    display: flex;
+    padding: 0% 1% 0% 1%;
 }
 
+.navbar-brand {
+    color: #150430;
+}
 
-/* 
-.harryporter {
+.navbar-nav a {
+    gap: 5em;
+    margin-left: 70%;
+    color: #A7B3B1;
+}
+
+a:hover {
+    transform: scale(1, 1.05);
+    color: #070111;
+    transition-delay: 0.0001s;
+}
+
+.body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #070111;
+}
+
+.carousel-item img {
+    width: 15rem;
+}
+
+.carousel-text {
+    text-align: center;
+    border: 1px solid white;
+    color: #A7B3B1;
+}
+
+.cast {
     display: flex;
     justify-content: space-between;
-    background-color: #070111;
-} */
-
-.carousel-item {
-    border: 1px solid black;
+    padding: 30px;
+    padding: 5% 2% 0% 2%;
+    align-items: center;
 }
 
 .cast-text {
-    border: 1px solid black;
-    z-index: -1;
+    color: #A7B3B1;
+    z-index: 1;
+    padding-left: 3%;
+}
+
+.cast-text h1 {
+    font-size: 3rem;
+    line-height: 1.3;
+    word-spacing: 2px;
+}
+
+.cast-text p {
+    font-size: 1.1rem;
+    margin-top: 2%;
+    line-height: 2;
+    word-spacing: 2px;
+}
+
+.multiverse-cast-img img {
+    width: 22rem;
+}
+
+progress {
+    height: 3.5px;
+    width: 85%;
+}
+
+.cast-text button {
+    width: 150px;
+    margin-top: 5%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #A7B3B1;
+    background-color: #b00d01;
+    font-size: 17px;
+    font-weight: bold;
+    border: 0px;
+}
+
+button:hover {
+    transform: scale(1, 1.05);
+    background-color: rgb(194, 194, 3);
+    color: #070111;
+    transition: 2s;
+    transition-delay: 0.0001s;
+}
+
+.aladdin-cast-img {
+    width: 30rem;
+}
+
+.dune-cast-img img {
+    width: 22rem;
+}
+
+.rednotice-cast-img img {
+    width: 28rem;
+}
+
+.BB-cast-img img {
+    width: 21rem;
+}
+
+.avengers-cast-img img {
+    width: 20rem;
+}
+
+.blackwidow-cast-img img {
+    width: 25rem;
+}
+
+.spiderman-cast-img img {
+    width: 25rem;
+}
+
+.harry-cast-img img {
+    width: 26rem;
 }
