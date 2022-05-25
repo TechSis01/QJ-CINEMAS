@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-.navigation {
+
+/* .navigation {
     display: flex;
     padding: 0% 1% 0% 1%;
 }
@@ -23,7 +24,7 @@ a:hover {
     transform: scale(1, 1.05);
     color: #070111;
     transition-delay: 0.0001s;
-}
+} */
 
 .body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -83,7 +84,7 @@ progress {
     border-radius: 5px;
     color: #A7B3B1;
     background-color: #b00d01;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     border: 0px;
 }
