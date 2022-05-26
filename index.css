@@ -17,8 +17,9 @@ nav{
     display:flex;
     width:85%;
     margin-left: 5%;
-    position:absolute;
+    /*position:absolute;*/
     justify-content: space-between;
+    background-color: black;
 }
 .brand-name{
     margin-top:3%;
@@ -36,21 +37,29 @@ span{
     display:flex;
     width:30%;
     justify-content: space-around;
-    align-items:center;
+    align-items:flex-end;
 }
 .other-pages a{
     text-decoration: none;
     color:#A7B3B1;
+    cursor:pointer;
+}
+.link:hover{
+    cursor:pointer;
 }
 video{
     width:100%;
     margin-bottom:0;
+    z-index:-1;
 }
 .socials{
     margin-left:5%;
     position:absolute;
-    bottom:10%;
+    bottom:8%;
     width:10%;
+}
+.fa-brands:hover{
+    color:#D72508;
 }
 .fa-brands{
     margin-right:10%;
@@ -117,6 +126,7 @@ hr{
 .news-box{
     display:flex;
     justify-content: space-evenly;
+    padding-top:5%;
 }
 .news-info{
     width:300px;
