@@ -38,7 +38,7 @@ span{
     display:flex;
     width:30%;
     justify-content: space-around;
-    align-items:flex-end;
+    align-items:center;
 }
 .other-pages a{
     text-decoration: none;
