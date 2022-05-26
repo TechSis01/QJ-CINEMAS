@@ -6,11 +6,20 @@
 
 .navigation {
     display: flex;
-    padding: 0% 1% 0% 1%;
+    color: #150430;
 }
 
 .navbar-brand {
-    color: #150430;
+    font-family: 'Russo One', sans-serif;
+    font-size:1.5rem;
+    color:#D72508;
+}
+.cinema{
+    font-size:1.2rem;
+}
+.brand-screen{
+    font-size:1.2rem;
+    color: #A7B3B1;
 }
 
 .navbar-nav a {
