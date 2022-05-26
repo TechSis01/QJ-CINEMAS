@@ -76,6 +76,16 @@ progress {
     width: 85%;
 }
 
+progress[value] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+progress[value]::-webkit-progress-value {
+    background-color: #29124d;
+    ;
+}
+
 .cast-text button {
     width: 150px;
     margin-top: 5%;
@@ -83,7 +93,7 @@ progress {
     border-radius: 5px;
     color: #A7B3B1;
     background-color: #b00d01;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: bold;
     border: 0px;
 }
