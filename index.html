@@ -9,6 +9,7 @@
     <!--FONT AWESOME KIT-->
     <script src="https://kit.fontawesome.com/597098b101.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>SilverScreen</title>
 </head>
 
@@ -36,7 +37,7 @@
             <h3>OPENING THIS WEEK</h3>
             <hr>
  
-            <div class="current-movies-grid">
+            <div class="current-movies-grid "  data-aos="zoom-in" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-mirror="true" data-aos-once="false" data-aos-anchor-placement="top-center">
                 <div>
                     <img src="/movies/dr.strange.jpg" alt="dr.strange" class="movie">
                     <div>
@@ -211,7 +212,11 @@
         </section>
     </main>
 
-    
+    <script src=" https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
