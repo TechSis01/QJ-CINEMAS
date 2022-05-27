@@ -14,9 +14,8 @@
 
 /*==========================================================NAVIGATION=====================================================*/
 
-.navbar-toggler-icon {
-    color:white;
-    
+.navigation button {
+    font-size: 1em;
 }
 
 .navigation {
@@ -52,7 +51,7 @@
 }
 
 .navigation a:hover {
-    transform: scale(1, 1.05);
+    transform: scale(1, 05);
     transition-delay: 0.0001s;
     color: #fe0000;
 }
@@ -156,8 +155,8 @@
     border: 0px;
 }
 
-button:hover {
-    transform: scale(1, 1.05);
+.cast button:hover {
+    transform: scale(1, 1.03);
     background-color: #3d1b74;
     color: #A7B3B1;
     transition: 2s;
