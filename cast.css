@@ -51,7 +51,7 @@
 }
 
 .navigation a:hover {
-    transform: scale(1, 05);
+    transform: scale(1, 1.05);
     transition-delay: 0.0001s;
     color: #fe0000;
 }
