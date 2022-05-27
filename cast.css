@@ -14,9 +14,8 @@
 
 /*==========================================================NAVIGATION=====================================================*/
 
-.navbar-toggler-icon {
-    color:white;
-    
+.navigation button .navbar-toggler-icon {
+    font-size: 1.2em;
 }
 
 .navigation {
@@ -29,14 +28,21 @@
 
 .navigation span {
     font-size: 1.5rem;
-    color: #D72508;
+    color: #e70404;
 }
-.brand-name{
+
+.brand-name {
     font-family: 'Russo One', sans-serif;
 }
 
 .navigation a {
     color: #A7B3B1;
+    font-size: 1.07em;
+    font-weight: bold;
+}
+
+.navigation a:hover span {
+    color: white;
 }
 
 .navbar-nav a {
@@ -47,7 +53,7 @@
 .navigation a:hover {
     transform: scale(1, 1.05);
     transition-delay: 0.0001s;
-    
+    color: #e70404;
 }
 
 
@@ -77,20 +83,19 @@
 
 .cast-text {
     color: #A7B3B1;
-    z-index: 1;
     padding: 1%;
     text-align: justify;
 }
 
 .cast-text h1 {
-    font-size: 3rem;
+    font-size: 3.8rem;
     line-height: 1.3;
     word-spacing: 2px;
     font-weight: bold;
 }
 
 .cast-text p {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     margin-top: 2%;
     line-height: 2;
     word-spacing: 2px;
@@ -139,19 +144,19 @@
 /*==========================================================CAST BUTTON========================================================*/
 
 .cast-text button {
-    width: 150px;
+    width: 180px;
     margin-top: 5%;
     padding: 10px;
     border-radius: 5px;
     color: #A7B3B1;
-    background-color:#D72508;
-    font-size: 15px;
+    background-color: #fe0000;
+    font-size: 16px;
     font-weight: bold;
     border: 0px;
 }
 
-button:hover {
-    transform: scale(1, 1.05);
+.cast button:hover {
+    transform: scale(1, 1.03);
     background-color: #3d1b74;
     color: #A7B3B1;
     transition: 2s;
@@ -184,7 +189,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .footer span {
-    color:#D72508;
+    color: #D72508;
     font-size: 1.8rem;
 }
 
@@ -228,7 +233,6 @@ progress[value]::-webkit-progress-value {
 .footer a:hover {
     transform: scale(1, 1.05);
     transition-delay: 0.0001s;
-    
 }
 
 
@@ -241,6 +245,9 @@ progress[value]::-webkit-progress-value {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+    }
+    .navigation button .navbar-toggler-icon {
+        font-size: 1.05em;
     }
     .navbar-nav a {
         margin-left: 45%;
@@ -315,6 +322,9 @@ progress[value]::-webkit-progress-value {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+    }
+    .navigation button .navbar-toggler-icon {
+        font-size: 2.5em;
     }
     .navbar-nav a {
         margin-left: 45%;
