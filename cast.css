@@ -14,6 +14,11 @@
 
 /*==========================================================NAVIGATION=====================================================*/
 
+.navbar-toggler-icon {
+    color: red;
+    background-color: yellow;
+}
+
 .navigation {
     display: flex;
     padding-top: 2%;
@@ -208,7 +213,7 @@ progress[value]::-webkit-progress-value {
 
 .copy-wright {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 .footer-social {
@@ -233,6 +238,9 @@ progress[value]::-webkit-progress-value {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+    }
+    .navbar-nav a {
+        margin-left: 45%;
     }
     .carousel-item img {
         width: 20rem;
@@ -305,6 +313,9 @@ progress[value]::-webkit-progress-value {
         padding: 0;
         overflow-x: hidden;
     }
+    .navbar-nav a {
+        margin-left: 45%;
+    }
     .carousel-item img {
         width: 40rem;
     }
@@ -355,7 +366,7 @@ progress[value]::-webkit-progress-value {
         text-align: justify;
     }
     .footer {
-        font-size: 2.4em;
+        font-size: 2em;
     }
     .footer-one {
         display: flex;
@@ -373,16 +384,16 @@ progress[value]::-webkit-progress-value {
         font-size: 1.3em;
     }
     .footer-one span {
-        font-size: 1.4em;
+        font-size: 1.1em;
     }
     .footer-one .navbar-brand {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     .navigation a {
-        font-size: 2.3em;
+        font-size: 1.7em;
     }
     .navigation span {
-        font-size: 4rem;
+        font-size: 3.8rem;
         color: #5525a3;
     }
 }
