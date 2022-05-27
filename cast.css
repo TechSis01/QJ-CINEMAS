@@ -14,8 +14,8 @@
 
 /*==========================================================NAVIGATION=====================================================*/
 
-.navigation button {
-    font-size: 1em;
+.navigation button .navbar-toggler-icon {
+    font-size: 1.2em;
 }
 
 .navigation {
@@ -246,6 +246,9 @@ progress[value]::-webkit-progress-value {
         padding: 0;
         overflow-x: hidden;
     }
+    .navigation button .navbar-toggler-icon {
+        font-size: 1.05em;
+    }
     .navbar-nav a {
         margin-left: 45%;
     }
@@ -319,6 +322,9 @@ progress[value]::-webkit-progress-value {
         margin: 0;
         padding: 0;
         overflow-x: hidden;
+    }
+    .navigation button .navbar-toggler-icon {
+        font-size: 2.5em;
     }
     .navbar-nav a {
         margin-left: 45%;
