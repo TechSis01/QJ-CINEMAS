@@ -7,7 +7,7 @@
 }
 
 .body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     background-color: #070111;
 }
 
@@ -17,14 +17,17 @@
 .navigation {
     display: flex;
     padding-top: 2%;
-    font-family: 'Russo One', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     align-items: center;
     padding-left: 5%;
 }
 
 .navigation span {
     font-size: 1.5rem;
-    color: #5525a3;
+    color: #D72508;
+}
+.brand-name{
+    font-family: 'Russo One', sans-serif;
 }
 
 .navigation a {
@@ -39,7 +42,7 @@
 .navigation a:hover {
     transform: scale(1, 1.05);
     transition-delay: 0.0001s;
-    color: #5525a3;
+    
 }
 
 
@@ -136,7 +139,7 @@
     padding: 10px;
     border-radius: 5px;
     color: #A7B3B1;
-    background-color: #b00d01;
+    background-color:#D72508;
     font-size: 15px;
     font-weight: bold;
     border: 0px;
@@ -176,7 +179,7 @@ progress[value]::-webkit-progress-value {
 }
 
 .footer span {
-    color: #5525a3;
+    color:#D72508;
     font-size: 1.8rem;
 }
 
@@ -220,7 +223,7 @@ progress[value]::-webkit-progress-value {
 .footer a:hover {
     transform: scale(1, 1.05);
     transition-delay: 0.0001s;
-    color: #5525a3;
+    
 }
 
 
